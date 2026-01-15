@@ -1,2 +1,2 @@
 import { taskFirst, taskNext } from './0-constants.js';
-console.log(`{taskNext()}`);
+console.log(`${taskFirst()} ${taskNext()}`);
