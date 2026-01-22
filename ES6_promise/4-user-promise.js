@@ -4,3 +4,8 @@ export default function signUpUser(firstName, lastName) {
     lastName,
   });
 }
+//////////////////
+//eshte e njejta me  new Promise......
+const myPromise1 = new Promise((resolve, reject) => {
+        return resolve("I am first promise");
+    }, 1000);
