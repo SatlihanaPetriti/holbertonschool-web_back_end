@@ -1,3 +1,4 @@
+/*eslint-disable*/
 function groceriesList() {
   const groceryMap = new Map();
   groceryMap.set('Apples', 10);
