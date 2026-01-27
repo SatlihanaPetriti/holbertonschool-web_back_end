@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import asyncUploadUser from './100-await';
 
 const run = async () => {

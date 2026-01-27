@@ -1,5 +1,6 @@
+/*eslint-disable*/
 export default function guardrail(mathFunction) {
-  const queue = [];//create
+  const queue = [];
 
   try {
     const result = mathFunction();

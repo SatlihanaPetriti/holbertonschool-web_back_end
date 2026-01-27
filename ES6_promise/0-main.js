@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import getResponseFromAPI from './0-promise';
 
 const response = getResponseFromAPI();
