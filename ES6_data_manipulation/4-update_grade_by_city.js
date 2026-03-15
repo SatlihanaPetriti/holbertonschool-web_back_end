@@ -11,14 +11,14 @@ function updateStudentGradeByCity(students, city, newGrades) {
         break;
       }
     }
-    
+
     if (!foundGrade) {
       studentCopy.grade = 'N/A';
     }
-    
+
     return studentCopy;
   });
-  
+
   return result;
 }
 

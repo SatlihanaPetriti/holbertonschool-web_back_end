@@ -1,11 +1,6 @@
 /*eslint-disable*/
 function hasValuesFromArray(set, array){
-    for (const element of array) {
-    if (!set.has(element)) {
-      return false;
-    }
-  }
-  return true;
+  return array.every((el)=> (set.has(el)))
 
 }
 export default hasValuesFromArray;
