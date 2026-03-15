@@ -1,4 +1,5 @@
 -- script div
+
 DROP FUNCTION IF EXISTS SafeDiv;
 
 DELIMITER / /
